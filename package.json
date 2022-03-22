@@ -16,6 +16,7 @@
   "scripts": {
     "analyze": "ANALYZE=true next build",
     "build": "next build",
+    "build1": "next build && next export",
     "copy": "copyfiles --flat edit-me/config/**/*.{png,ico,json} public",
     "dev": "next dev",
     "format": "prettier --write 'src/**/*.{json,js,ts,tsx}'",

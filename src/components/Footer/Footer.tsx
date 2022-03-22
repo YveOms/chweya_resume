@@ -10,7 +10,7 @@ import Container from '../../strum-design-system/components/Container/Container'
 import { atoms } from '../../strum-design-system/sprinkles.css';
 import { visuallyHidden } from '../../strum-design-system/styles/accessibility.css';
 import colors from '../../strum-design-system/themes/timbre/colors';
-import { footerLinkStyle, footerStyle } from './Footer.css';
+import { footerStyle } from './Footer.css';
 
 interface FooterProps {
   personalInformation: CMSPersonalInformation;
@@ -56,38 +56,38 @@ const Footer: React.FC<FooterProps> = (props) => {
           Copyright ©{new Date().getFullYear()} {fullName}
         </div>
 
-        <div>
-          <small>
-            This résumé was generated with{' '}
-            <a
-              className={footerLinkStyle}
-              href="https://nextjs.org/"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              Next.js
-            </a>{' '}
-            and deployed on{' '}
-            <a
-              className={footerLinkStyle}
-              href="https://vercel.com/"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              Vercel
-            </a>
-            . Learn how to deploy your own resume with the{' '}
-            <a
-              className={footerLinkStyle}
-              href="https://github.com/colinhemphill/nextjs-resume-generator"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              nextjs-resume-generator
-            </a>
-            !
-          </small>
-        </div>
+        {/*<div>*/}
+        {/*  <small>*/}
+        {/*    This résumé was generated with{" "}*/}
+        {/*    <a*/}
+        {/*      className={footerLinkStyle}*/}
+        {/*      href="https://nextjs.org/"*/}
+        {/*      rel="noopener noreferrer"*/}
+        {/*      target="_blank"*/}
+        {/*    >*/}
+        {/*      Next.js*/}
+        {/*    </a>{" "}*/}
+        {/*    and deployed on{" "}*/}
+        {/*    <a*/}
+        {/*      className={footerLinkStyle}*/}
+        {/*      href="https://vercel.com/"*/}
+        {/*      rel="noopener noreferrer"*/}
+        {/*      target="_blank"*/}
+        {/*    >*/}
+        {/*      Vercel*/}
+        {/*    </a>*/}
+        {/*    . Learn how to deploy your own resume with the{" "}*/}
+        {/*    <a*/}
+        {/*      className={footerLinkStyle}*/}
+        {/*      href="https://github.com/colinhemphill/nextjs-resume-generator"*/}
+        {/*      rel="noopener noreferrer"*/}
+        {/*      target="_blank"*/}
+        {/*    >*/}
+        {/*      nextjs-resume-generator*/}
+        {/*    </a>*/}
+        {/*    !*/}
+        {/*  </small>*/}
+        {/*</div>*/}
       </Container>
     </footer>
   );
