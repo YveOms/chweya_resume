@@ -22,7 +22,7 @@ export const links: CMSLink[] = [
   //   title: 'NPM',
   // },
   {
-    href: 'https://twitter.com',
+    href: 'https://twitter.com/gichaba_kevin',
     iconName: 'twitter',
     title: 'Twitter',
   },
