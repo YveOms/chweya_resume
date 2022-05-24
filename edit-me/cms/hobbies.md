@@ -1,5 +1,4 @@
-Tinkering with new Tech.
-
-Traveling.
-
-Learning new **Human** Languages.
+Travelling.
+Playing sports.
+Online Gaming.
+Reading.

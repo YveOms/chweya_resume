@@ -1,5 +1,5 @@
 {
-  "name": "next-resume-generator",
+  "name": "KevinResume",
   "version": "2.0.2",
   "author": {
     "name": "Colin Hemphill",
@@ -12,7 +12,7 @@
     "nextjs",
     "pdf"
   ],
-  "homepage": "https://github.com/colinhemphill/nextjs-resume-generator",
+  "homepage": "https://github.com/YveOms/chweya_resume",
   "scripts": {
     "analyze": "ANALYZE=true next build",
     "build": "next build",

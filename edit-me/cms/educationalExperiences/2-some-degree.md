@@ -1,8 +1,7 @@
 ---
-achievement: Bsc. Computer Technology
-completionYear: 2020
-institution: Multimedia University of Kenya
+achievement: Tensorflow for Deep Learning
+completionYear: 2019
+institution: Udacity
 ---
 
-Second Class Honours; Upper division ➡️
-Networking, Basics of Computer Security, Calculus, Database Design and Implementation.
+Worked with MNIST Dataset, CNNs, Transfer Learning, Time Series, RNN.
